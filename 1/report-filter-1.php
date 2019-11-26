@@ -51,7 +51,7 @@ $pdf->Cell(10, 0.8, 'KELENGKAPAN', 1, 1, 'C');
 
 $pdf->SetFont('times','',9);
 $no=1;
-$queryangkutan = mysqli_query ($konek, "SELECT noken, supir, uji, tgl, DATE_FORMAT(kp, '%d-%m-%Y')as kp , naik, turun, jml, kel FROM angkutan WHERE tgl BETWEEN '$cetak' ORDER BY tgl DESC");
+$queryangkutan = mysqli_query ($konek, "SELECT noken, supir, uji, keluar, DATE_FORMAT(kp, '%d-%m-%Y')as kp , naik, turun, jml, kel FROM angkutan WHERE keluar BETWEEN '$cetak' ORDER BY keluar DESC");
 while($row = mysqli_fetch_array($queryangkutan)){
 	$pdf->Cell(1, 0.8, $no, 1, 0, 'C');
 	$pdf->Cell(3.7, 0.8, $row['noken'], 1, 0,'C');

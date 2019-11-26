@@ -91,7 +91,7 @@ $(this).val('');
                 <div class="box-body">
 				<a href="#"><button class="btn btn-success" type="button" data-target="#ModalAdd" data-toggle="modal"><i class="fa fa-plus"></i> Tambah</button></a>
 
-				<a href="#"><button class="btn btn-primary" type="button" data-target="#exampleModal" data-toggle="modal"><i class="fa fa-print"></i> Print Berdasarkan Tanggal Input</button></a>
+				<a href="#"><button class="btn btn-primary" type="button" data-target="#exampleModal" data-toggle="modal"><i class="fa fa-print"></i> Print Berdasarkan Tanggal Keluar</button></a>
 
 				<a href="report-all-1.php" target="_blank"><button class="btn btn-primary" type="button"><i class="fa fa-print"></i> Print Semua</button></a>
 
